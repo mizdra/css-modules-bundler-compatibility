@@ -1,0 +1,7 @@
+@import './a.module.css';
+/* @import './non-existent.module.css'; */
+/* @import '~css-module-util/a.module.css'; */
+/* @import 'css-module-util/b.module.css'; */
+@import 'bootstrap/dist/css/bootstrap-reboot.min.css';
+@import 'https://example.com/example.module.css';
+@import 'unknown://example.com/example.module.css';
