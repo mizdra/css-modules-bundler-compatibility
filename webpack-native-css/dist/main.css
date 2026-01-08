@@ -1,0 +1,13 @@
+@import url("https://example.com/example.module.css");
+.qZl-6e {
+  color: red;
+}
+
+._0WetDl {
+  color: white;
+}
+
+/* @import './non-existent.module.css'; */
+/* @import '~css-module-util/a.module.css'; */
+/* @import 'unknown://example.com/example.module.css'; */
+

@@ -1,0 +1,16 @@
+@import url(https://example.com/example.module.css);
+@import url(unknown://example.com/example.module.css);
+.SFYQ3dOwT2JFaonnCNhb {
+  color: red;
+}
+
+.ZbqiNCJnBfc5m0FviM3V {
+  color: black;
+}
+
+.XIMuYF6RUHW78Rskpgi4 {
+  color: white;
+}
+
+/* @import './non-existent.module.css'; */
+
