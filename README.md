@@ -22,4 +22,4 @@ This repository is for checking the compatibility differences of CSS Modules acr
 | `@import '~some-pkg/a.module.css';`                 | ❌        | ❌   | ✅                   | ❌                   |
 | `@import 'some-pkg/b.module.css';`                  | ✅        | ✅   | ✅                   | ✅                   |
 | `@import 'https://example.com/example.module.css';` | ⚠️        | ⚠️   | ⚠️                   | ⚠️                   |
-| `@import 'https://example.com/example.module.css';` | ⚠️        | ⚠️   | ⚠️                   | ❌                   |
+| `@import 'unknown://example.com/example.module.css';` | ⚠️        | ⚠️   | ⚠️                   | ❌                   |
