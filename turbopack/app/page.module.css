@@ -1,7 +1,14 @@
 @import './a.module.css';
 /* @import './non-existent.module.css'; */
 /* @import '~css-module-util/a.module.css'; */
+
+/**
+ * CSS from packages installed via npmjs.com can be resolved,
+ * but CSS from packages installed locally cannot be resolved.
+ * This is probably a bug in turbopack.
+ */
 /* @import 'css-module-util/b.module.css'; */
 @import 'bootstrap/dist/css/bootstrap-reboot.min.css';
+
 @import 'https://example.com/example.module.css';
 @import 'unknown://example.com/example.module.css';
